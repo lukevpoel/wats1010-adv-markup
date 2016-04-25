@@ -10,7 +10,7 @@ nav, aside, section, footer, header, main {
 header {
   background-color: #11233b;
   color: white;
-  padding: 10px 20px;
+  padding: 1cm 1cm;
 }
 
 body {
@@ -56,21 +56,18 @@ footer {
   clear: both;
   width: 500px;
   background: red; 
-  padding: 3cm 1cm 1cm 1cm;
+  padding: 1cm 1cm 1cm 1cm;
   margin-top: 10px;
 }
 .poem {
   list-style: none;
 }
 .bio-photo {
-  zoom: 2;  
-
-    display: block;
-    margin: auto;
-
-    height: auto;
-    max-height: 100%;
-
-    width: auto;
-    max-width: 100%;
+  width: auto;
+  background-color: yellow;
+  font-size: 12px;
+}
+#poe-bio {
+  clear: both;
+  padding-top: 50px;
 }
