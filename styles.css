@@ -7,13 +7,8 @@ nav, aside, section, footer, header, main {
   padding: 0;
   margin: 0;
 }
-header {
-  background-color: #11233b;
-  color: white;
-  padding: 1cm 1cm;
-}
-
 body {
+  background-color: #666;
   width: 1000px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -21,19 +16,38 @@ body {
   margin-right: auto;
   font-family: Geneva,Tahoma,Verdana,sans-serif;
   font-size: 15px;
+  color: #CC99FF;
+}
+header {
+  background-color: #440044;
+  color: #66CCFF;
+  padding: 1cm 1cm;
+  font-size: 120%;
 }
 nav {
-  background-color: #20416c;
+  background-color: #000033;
+  padding: 10px;
+  border: 10px inset #330033;
 }
 li a {
-  color: yellow;
+  color: #CCCCFF;
+  font-size: 120%;
 }
 a {
-  color: orange;
+  color: #6666CC;
+}
+nav ul {
+  display: table;
+  width: 100%;
+  list-style: none;
+  list-style-position: center;
 }
 nav ul li {
-  display: inline;
-  margin-right: 15px;
+  display: table-cell;
+  text-align: center;
+}
+nav ul li a {
+  display: block;
 }
 a.active {
   font-weight: bold;
@@ -41,33 +55,70 @@ a.active {
 aside {
   float: right;
   width: 300px;
-  background-color: green;
+  background-color: #000033;
   padding: 20px;
   margin-top: 10px;
+  color: #9922CC;
+}
+aside ul{
+  font-size: 12px;
+}
+#content { 
+  background: radial-gradient(#220011 70%, #666); /* Standard syntax */
 }
 section {
   float: left;
-  width: 500px;
-  background-color: blue;
+  width: 550px;
+  background: #220011;/* For browsers that do not support gradients */
   padding: 1cm 1cm 1cm 1cm;
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 footer {
   clear: both;
-  width: 500px;
-  background: red; 
-  padding: 1cm 1cm 1cm 1cm;
+  width: auto;
   margin-top: 10px;
+  background-color: #440044;
+  color: #66CCFF;
+  padding: 1cm 1cm;
+}
+.bibliography li a {
+  font-size: 16px;
 }
 .poem {
+  text-align: center;
   list-style: none;
+  font-family: "museo-sans", Helvetica, Arial, sans-serif;
+  line-height: 150%;
+}
+.poem ul li {
+  display: inline;
 }
 .bio-photo {
-  width: auto;
-  background-color: yellow;
   font-size: 12px;
+  text-align: center;
+}
+img {
+  display: block;
+  height: 400px;
+  width: 300px;
+  border: 10px solid #006699;
+  margin: 0 auto;
 }
 #poe-bio {
   clear: both;
   padding-top: 50px;
+}
+dl {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0em;
+    margin-right: 0em;
+}
+h2 {
+  text-align: center;
+}
+#selected_works {
+  padding: 10px;
 }
