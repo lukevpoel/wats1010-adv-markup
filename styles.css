@@ -1,1 +1,76 @@
 /* Styles for the Advanced Markup assignment. */
+aside, nav, section, footer, header, main {
+  display: block;
+}
+html, body, h1, h2, h3, ul, li, a, p,
+nav, aside, section, footer, header, main {
+  padding: 0;
+  margin: 0;
+}
+header {
+  background-color: #11233b;
+  color: white;
+  padding: 10px 20px;
+}
+
+body {
+  width: 1000px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Geneva,Tahoma,Verdana,sans-serif;
+  font-size: 15px;
+}
+nav {
+  background-color: #20416c;
+}
+li a {
+  color: yellow;
+}
+a {
+  color: orange;
+}
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+a.active {
+  font-weight: bold;
+}
+aside {
+  float: right;
+  width: 300px;
+  background-color: green;
+  padding: 20px;
+  margin-top: 10px;
+}
+section {
+  float: left;
+  width: 500px;
+  background-color: blue;
+  padding: 1cm 1cm 1cm 1cm;
+  margin-top: 10px;
+}
+footer {
+  clear: both;
+  width: 500px;
+  background: red; 
+  padding: 3cm 1cm 1cm 1cm;
+  margin-top: 10px;
+}
+.poem {
+  list-style: none;
+}
+.bio-photo {
+  zoom: 2;  
+
+    display: block;
+    margin: auto;
+
+    height: auto;
+    max-height: 100%;
+
+    width: auto;
+    max-width: 100%;
+}
